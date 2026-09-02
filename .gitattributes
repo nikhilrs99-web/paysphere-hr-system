@@ -1,0 +1,5 @@
+# Force GitHub to ignore the frontend folder for language statistics
+# This ensures that Java (Backend) is displayed as the primary language of the repository.
+hr-frontend/** linguist-vendored
+*.jsx linguist-detectable=false
+*.js linguist-detectable=false
