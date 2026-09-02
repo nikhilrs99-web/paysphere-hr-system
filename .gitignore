@@ -1,0 +1,28 @@
+# Frontend
+hr-frontend/node_modules/
+hr-frontend/dist/
+hr-frontend/.env
+hr-frontend/.env.*
+hr-frontend/*.local
+
+# Backend
+hr-backend/target/
+hr-backend/run_output*.txt
+hr-backend/compile_error.txt
+hr-backend/startup_log.txt
+hr-backend/.mvn/wrapper/maven-wrapper.jar
+*.properties
+
+# General
+node_modules/
+.env
+
+# IDEs / OS
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store

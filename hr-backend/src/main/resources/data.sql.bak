@@ -1,0 +1,20 @@
+-- Seed Data for Employee Database
+
+-- Insert Employees (Updated with salary and currency)
+INSERT INTO employee (first_name, last_name, email, job_title, department, location, base_salary, currency, country, tax_id, bank_details) VALUES 
+('John', 'Doe', 'john.doe@example.com', 'Senior Developer', 'Engineering', 'New York', 8500.0, 'USD', 'USA', 'TX12345', 'Chase Bank - 12345678'),
+('Jane', 'Smith', 'jane.smith@example.com', 'HR Manager', 'Human Resources', 'London', 6000.0, 'GBP', 'GB', 'UK98765', 'HSBC - 87654321'),
+('Michael', 'Brown', 'michael.brown@example.com', 'Financial Analyst', 'Finance', 'Berlin', 5500.0, 'EUR', 'DE', 'DE55443', 'Deutsche Bank - 11223344');
+
+-- Insert Tax Configurations
+INSERT INTO tax_config (country_code, income_tax_rate, social_security_rate, health_insurance_rate) VALUES 
+('USA', 20.0, 6.2, 1.45),
+('GB', 20.0, 12.0, 0.0), -- Simplified NI
+('DE', 14.0, 9.3, 7.3);
+
+-- Insert Roles
+INSERT INTO employee_roles (employee_id, role) VALUES 
+(1, 'ROLE_ADMIN'),
+(1, 'ROLE_HR'),
+(2, 'ROLE_HR'),
+(3, 'ROLE_EMPLOYEE');
