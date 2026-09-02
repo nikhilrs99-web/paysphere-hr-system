@@ -1,0 +1,9 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!target/*.jar
+*.properties
+run_output*.txt
+compile_error.txt
+startup_log.txt
+.vscode
+.idea
