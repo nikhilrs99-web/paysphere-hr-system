@@ -97,10 +97,6 @@ cd hr-backend
 | `VITE_SUPABASE_URL` | `hr-frontend/.env` | The URL of your Supabase project. |
 | `VITE_SUPABASE_ANON_KEY` | `hr-frontend/.env` | The public anon key for Supabase. |
 
-## 📸 Screenshots
-
-![Employee Directory UI](./docs/employee_directory.png)
-
 ## 🔌 API Documentation (Overview)
 The backend exposes a REST API secured by Spring Security.
 *   `GET /api/employees` - Retrieve all employees.
